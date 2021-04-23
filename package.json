@@ -1,0 +1,29 @@
+{
+  "name": "ShopSukixBridge",
+  "version": "1.0.0",
+  "description": "ShopSuki xBridge",
+  "main": "server.js",
+  "scripts": {
+    "debug": "nodemon --inspect -r dotenv/config server.js",
+    "start": "node -r dotenv/config server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mariadb": "^2.4.0",
+    "moment": "^2.26.0",
+    "passport": "^0.4.1",
+    "pug": "^2.0.4"
+  }
+}
